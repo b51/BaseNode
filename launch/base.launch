@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+  <node name="BaseNode" pkg="BaseNode"
+      type="BaseNode" args="
+          -configuration_directory $(find BaseNode)/config
+          -configuration_basename config.lua"
+      output="screen">
+  </node>
+
+</launch>
