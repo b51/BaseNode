@@ -44,6 +44,5 @@ int main(int argc, char *argv[]) {
   node.Init();
   node.Run();
 
-  ::ros::spin();
   ::ros::shutdown();
 }
